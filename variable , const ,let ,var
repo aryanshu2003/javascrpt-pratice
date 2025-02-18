@@ -1,0 +1,31 @@
+//console.log(" Hello Arya")
+// var a = 10;
+//let b = "Arya";
+//let author = "Arya"
+//let c = null
+//let d = undefined 
+//{
+//  let b ='this'
+//  console.log(b)
+//}
+//console.log(b)
+                       // primaitive data types
+// nn bb ss u
+let a = null;
+let b = 345;
+let c = true // can also be false
+let d = BigInt("567") + BigInt("3")
+let e = "Arya"
+let f = Symbol(" i am a nice symble")
+let g = undefined
+console.log(a,b,c,d,e,f,g)
+console.log(typeof d) 
+
+// non-primaitive data types -objects in js
+const item ={
+  "Arya": true,
+  "Shubh": false,
+  "lovish": 67,
+  "Rohan": undefined
+}
+console.log(item["Arya"])
