@@ -1,0 +1,25 @@
+
+const readline = require('readline').createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+
+readline.question('Hey whats your age? ', (age) => {
+  age = parseInt(age);
+  
+  if (age < 0) {
+    console.log("This is an invalid age");
+  }
+  else if (age < 9) {
+    console.log("You are a kid and you cannot even think of driving");
+  }
+  else if (age < 18 && age >= 9) {
+    console.log("You are a kid and you can think of driving after 18");
+  }
+  else {
+    console.log("You can drive as you are above 18");
+  }
+  console.log("Done")
+  console.log(" You can ", (age <18 ? "not drive ":"drive"))
+  readline.close();
+});
