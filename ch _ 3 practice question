@@ -1,0 +1,40 @@
+ let marks = {
+   arya : 90,
+   harry : 80,
+   lovish : 40,
+   monika : 50
+ }
+//problem no 1
+for (let i = 0; i <Object.keys(marks).length; i++) {
+  console.log("The marks of " + Object.keys(marks)[i] + " are "  + marks[Object.keys(marks)[i]])
+  
+}
+
+//problem no 2
+for (let i in marks) {
+  console.log("The marks of " + i + " are "  + marks[i])
+}
+//problem no 3
+/*const readline = require('readline').createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+
+let cn = 4;
+function askNumber() {
+  readline.question('Enter a number: ', (number) => {
+    if (parseInt(number) === cn) {
+      console.log("You have entered a correct number");
+      readline.close();
+    } else {
+      askNumber();
+    }
+  });
+}
+askNumber();
+*/
+//problem no 4
+const mean = (a, b, c, d){
+  return (a + b + c + d)/4
+}
+console.log(mean(4, 5, 6, 7))
