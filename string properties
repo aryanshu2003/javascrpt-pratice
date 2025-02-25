@@ -18,3 +18,10 @@ console.log(fr[2])
 console.log(fr[3])
 console.log(fr[4])
 //console.log()
+
+
+
+let text = "hello, WOrld"
+for(let i = 0; i < text.length ; i++){
+  console.log(text[i])
+
