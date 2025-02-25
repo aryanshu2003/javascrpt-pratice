@@ -1,0 +1,22 @@
+let str = "Arya\""
+console.log(str.length)
+// problem 2
+const sentence = 'the quick bowrn fox jumps over the lazy dog.';
+const word = 'fox2';
+console.log(sentence.includes(word))
+console.log(sentence.startsWith(word))
+
+//problem 3
+console.log(word.toLowerCase())
+console.log(word.toUpperCase())
+
+//problem 4
+let str2 = "please give rs 1000"
+let amount = Number.parseInt(str2.slice(15))
+console.log(amount)
+console.log(typeof amount)
+
+//problem 5
+let friend = "deepika"
+friend[3]= "R"
+console.log(friend)// friend is not changed beacuse string is immutable
