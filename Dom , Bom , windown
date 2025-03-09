@@ -1,2 +1,23 @@
-aran
+html
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  Hello world
+  <div>this is me</div>
+  <script src="script.js"></script>
+</body>
+
+</html>
   
+js
+window.console.log(window)
+console.log(document.body)
+//document.body.style.background = "yellow"
